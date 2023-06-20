@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* styles.css */
+
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Style du titre */
+h1 {
+    color: #007bff;
+}
+
+/* Style du formulaire d'inscription */
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des étiquettes des champs de saisie */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style des champs de saisie */
+form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style du bouton de soumission */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style du bouton de déconnexion */
+form input[type="submit"].logout {
+    background-color: #dc3545;
+}
+
+/* Style de la liste des utilisateurs 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des éléments de la liste 
+ul li {
+    margin-bottom: 5px;
+}*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styles de l'en-tête du tableau */
+th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styles des cellules du tableau */
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Style alterné des lignes */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
